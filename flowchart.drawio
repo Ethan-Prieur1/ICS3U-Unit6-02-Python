@@ -4,8 +4,10 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="35" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="34">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="40" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="230" y="-100" width="100" height="60" as="geometry"/>
@@ -74,14 +76,16 @@
                 <mxCell id="33" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="280" y="575" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="34" target="10">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" parent="1" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="100" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="34" value="Get Array" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="40" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="&lt;span&gt;Return large_number&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="37" value="&lt;span&gt;Return large_number&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
                     <mxGeometry x="215" y="750" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Get Array" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="40" width="100" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
