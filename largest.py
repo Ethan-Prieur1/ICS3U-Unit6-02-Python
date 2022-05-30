@@ -9,7 +9,7 @@ import random
 
 def number_list(array):
 
-    large_number = 0
+    large_number = array[1]
     for counter in range(0, len(array)):
         top = array[counter]
         if large_number < top:
